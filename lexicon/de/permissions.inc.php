@@ -25,35 +25,35 @@
  * @package discuss
  * @subpackage lexicon
  */
-$_lang['discuss.perm.thread_lock'] = 'To lock a thread.';
-$_lang['discuss.perm.thread_merge'] = 'To merge a thread.';
-$_lang['discuss.perm.thread_modify'] = 'To modify a thread.';
-$_lang['discuss.perm.thread_move'] = 'To move a thread.';
-$_lang['discuss.perm.thread_remove'] = 'To remove a thread.';
-$_lang['discuss.perm.thread_split'] = 'To split a thread.';
-$_lang['discuss.perm.thread_stick'] = 'To stick a thread.';
-$_lang['discuss.perm.thread_unlock'] = 'To unlock a thread.';
-$_lang['discuss.perm.thread_unstick'] = 'To unstick a thread.';
+$_lang['discuss.perm.thread_lock'] = 'Um einen Thread zu sperren.';
+$_lang['discuss.perm.thread_merge'] = 'Um einen Thread zusammenzuführen.';
+$_lang['discuss.perm.thread_modify'] = 'Um einen Thread zu ändern.';
+$_lang['discuss.perm.thread_move'] = 'Um einen Thread zu verschieben.';
+$_lang['discuss.perm.thread_remove'] = 'Um einen Thread zu löschen.';
+$_lang['discuss.perm.thread_split'] = 'Um einen Thread zu teilen.';
+$_lang['discuss.perm.thread_stick'] = 'Um einen Thread anzupinnen.';
+$_lang['discuss.perm.thread_unlock'] = 'Um einen Thread zu entsperren.';
+$_lang['discuss.perm.thread_unstick'] = 'Um einen Thread zu lösen.';
 
-$_lang['discuss.perm.view_statistics'] = 'To view the forum statistics.';
-$_lang['discuss.perm.view_memberlist'] = 'To view the forum memberlist.';
-$_lang['discuss.perm.search'] = 'To search the forums.';
-$_lang['discuss.perm.view_online'] = 'To view the online list.';
-$_lang['discuss.perm.view_profiles'] = 'To view any user profile.';
-$_lang['discuss.perm.view_attachments'] = 'To view and download any attached files on a thread.';
-$_lang['discuss.perm.track_ip'] = 'To view and track IPs of posters.';
-$_lang['discuss.perm.view_emails'] = 'To view emails of posters.';
+$_lang['discuss.perm.view_statistics'] = 'Um Forum Statistiken einzusehen';
+$_lang['discuss.perm.view_memberlist'] = 'Um die Mitgliederliste des Forums einzusehen';
+$_lang['discuss.perm.search'] = 'Um das Foren zu durchsuchen';
+$_lang['discuss.perm.view_online'] = 'Um gerade Aktive in einer Liste zu sehen';
+$_lang['discuss.perm.view_profiles'] = 'Um jedes Benutzerprofil einzusehen';
+$_lang['discuss.perm.view_attachments'] = 'Um jede hochgeladene Daten anzusehen bzw. herunterzuladen';
+$_lang['discuss.perm.track_ip'] = 'Um ein IPs zu verfolgen und anzuzeigen';
+$_lang['discuss.perm.view_emails'] = 'Um die E-Mail Adresse der Diskutierenden einzusehen';
 
-$_lang['discuss.perm.thread_attach'] = 'To attach files to a thread or post.';
-$_lang['discuss.perm.thread_create'] = 'To create a new thread.';
-$_lang['discuss.perm.thread_report'] = 'To report a thread to moderators.';
-$_lang['discuss.perm.thread_reply'] = 'To reply to a thread.';
-$_lang['discuss.perm.thread_subscribe'] = 'To subscribe to a thread.';
-$_lang['discuss.perm.thread_send'] = 'To email a thread to someone.';
-$_lang['discuss.perm.thread_print'] = 'To print a thread.';
+$_lang['discuss.perm.thread_attach'] = 'Um Dateien zu einem Thread oder Post hinzufügen';
+$_lang['discuss.perm.thread_create'] = 'Um einen Thread zu erstellen';
+$_lang['discuss.perm.thread_report'] = 'Um einen Thread den Moderatoren zu melden';
+$_lang['discuss.perm.thread_reply'] = 'Um einen Thread zu antworten';
+$_lang['discuss.perm.thread_subscribe'] = 'Um einen Thread zu abonnieren';
+$_lang['discuss.perm.thread_send'] = 'Um einen Thread per E-Mail zu teilen';
+$_lang['discuss.perm.thread_print'] = 'Um einen Thread auszudrucken';
 
-$_lang['discuss.perm.pm_remove'] = 'To delete private messages.';
-$_lang['discuss.perm.pm_send'] = 'To send private messages.';
-$_lang['discuss.perm.pm_view'] = 'To view private messages.';
+$_lang['discuss.perm.pm_remove'] = 'Um private Nachrichten zu löschen';
+$_lang['discuss.perm.pm_send'] = 'Um private Nachrichten zu senden';
+$_lang['discuss.perm.pm_view'] = 'Um private Nachrichten anzuzeigen';
 
 //$_lang['discuss.perm.'] = '';

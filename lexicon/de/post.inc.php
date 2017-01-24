@@ -25,65 +25,65 @@
  * @package discuss
  * @subpackage lexicon
  */
-$_lang['discuss.attachment_err_upload'] = 'An error occurred while trying to upload the attachment: [[+error]]';
-$_lang['discuss.attachment_add'] = 'Add Attachment';
-$_lang['discuss.attachments'] = 'Attachments';
-$_lang['discuss.attachments_max'] = 'max of [[+max]]';
-$_lang['discuss.attachment_bad_type'] = 'Attachment [[+idx]] is not an allowed file type.';
-$_lang['discuss.attachment_err_upload'] = 'An error occurred while trying to upload attachment [[+idx]].';
-$_lang['discuss.attachment_too_large'] = 'Attachment [[+idx]] cannot be larger than [[+maxSize]] bytes; this one is [[+size]] bytes. Please specify a smaller attachment.';
+$_lang['discuss.attachment_err_upload'] = 'Beim Hochladen der Datei ist ein Fehler aufgetreten: [[+error]]';
+$_lang['discuss.attachment_add'] = 'Datei hinzufügen';
+$_lang['discuss.attachments'] = 'Anhänge';
+$_lang['discuss.attachments_max'] = 'maximal von [[+max]]';
+$_lang['discuss.attachment_bad_type'] = 'Datei [[+idx]] ist kein zulässiger Dateityp.';
+$_lang['discuss.attachment_err_upload'] = 'Beim Versuch, eine Datei [[+idx]] hochzuladen, ist ein Fehler aufgetreten.';
+$_lang['discuss.attachment_too_large'] = 'Die Datei [[+idx]] darf nicht größer als [[+maxSize]] bytes seiin; this one is [[+size]] bytes. Please specify a smaller attachment.';
 
-$_lang['discuss.message'] = 'Message';
-$_lang['discuss.new_post_type_instructions'] = '&larr; Is this a general discussion or are you looking for a specific answer?';
-$_lang['discuss.question_instructions'] = '<b>Help us help you</b>. If you’re having technical problems, please supply adequate details: web server type and version; PHP version, configuration and how it runs; MySQL details and <em>especially</em> the MODX version and list of Add-ons installed.';
-$_lang['discuss.question_links'] = '<a href="[[++discuss.questions_link]]" title="See our handy post on the best ways and types of things to consider when requesting help">Learn how to get help</a> <a href="" class="surroundText" data-text="[[%discuss.question_template]]" title="A super-handy template so you won’t forget important bits">Insert suggested tech question template</a>';
-$_lang['discuss.question_template'] = '[b]Description of Problem:[/b] 
+$_lang['discuss.message'] = 'Nachticht';
+$_lang['discuss.new_post_type_instructions'] = '&larr; Ist dies eine allgemeine Diskussion oder suchen Sie nach einer spezifischen Antwort?';
+$_lang['discuss.question_instructions'] = '<b>Helfen Sie uns, Ihnen zu helfen</b>. Wenn Sie technische Probleme haben, geben Sie bitte genaue Angaben an: Web-Server-Typ und Version; PHP-Version, Konfigurationen und so weiter; MySQL-Details und <em> besonders </ em> die MODX-Version sowie die Liste der installierten Add-ons sind wichtig.';
+$_lang['discuss.question_links'] = '<a href="[[++discuss.questions_link]]" title="Sehen Sie sich unsere hilfreichen Posts an, um bestmögliche Hilfestellungen zu erhalten.">Lernen, wie ich Hilfe bekomme.</a> <a href="" class="surroundText" data-text="[[%discuss.question_template]]" title="Eine praktische Vorlage, sodass Sie nichts Wichtiges vergessen.">Vorgeschlagene Tech-Fragevorlage einfügen</a>';
+$_lang['discuss.question_template'] = '[b]Beschriebung des Problems:[/b] 
 
-[b]Steps to Reproduce:[/b] 
+[b]Schritte zum Reproduzieren:[/b] 
 
-[b]Expected Outcome:[/b] 
+[b]Erwartetes Ergebnis:[/b] 
 
 [ul]
 [*][b]MODX Version:[/b] 
 [*][b]PHP Version:[/b] 
-[*][b]Database (MySQL, SQL Server, etc) Version:[/b] 
-[*][b]Additional Server Info:[/b] 
-[*][b]Installed MODX Add-ons:[/b] 
-[*][b]Error Log Contents:[/b] [i](attach as file if it’s too large)[/i] 
+[*][b]Datenbank (MySQL, SQL Server, etc) Version:[/b] 
+[*][b]Zusätzliche Server Info:[/b] 
+[*][b]Installierte MODX Add-ons:[/b] 
+[*][b]Error Log Inhalt:[/b] [i](Als Datei anhängen, sofern der Bericht sehr lang ausfällt.)[/i] 
 [/ul]
 ';
-$_lang['discuss.discussion_instructions'] = '<b>Be clear, concise, and stay on topic</b>. Use a discussion title that gives insight into your topic without having to read the entire message. Also, limit your topics to a single one per thread if possible.';
-$_lang['discuss.discussion_links'] = '<a href="[[++discuss.guidelines_link]]" title="Learn what we allow at MODX for appropriate topics">See our Forums policy…</a>';
-$_lang['discuss.new_post_made'] = 'A New Post Has Been Made';
-$_lang['discuss.notify_of_replies'] = 'Notify of Replies';
+$_lang['discuss.discussion_instructions'] = '<b>BSeien Sie klar, prägnant und bleiben Sie beim Thema</ b>. Verwenden Sie einen Diskussionstitel, der Einblick in Ihr Thema gibt, ohne den gesamten Beitrag lesen zu müssen. Zusätzlich grenzen Sie bitte Ihre Thema weitreichend ein, um keine Ausuferung zu herauszufordern.';
+$_lang['discuss.discussion_links'] = '<a href="[[++discuss.guidelines_link]]" title="Alles Wissenswerte, was erlaubt ist und was nicht.">Foren-Richtlinien einsehen ...</a>';
+$_lang['discuss.new_post_made'] = 'Ein neuer Beitrag wurde erstellt';
+$_lang['discuss.notify_of_replies'] = 'Bei Antworten benachrichtgen';
 
-$_lang['discuss.correct_errors'] = 'Please correct the errors in your form.';
-$_lang['discuss.post_err_create'] = 'An error occurred while trying to save the new thread.';
-$_lang['discuss.post_err_nf'] = 'Post not found!';
-$_lang['discuss.post_err_ns'] = 'Post not specified!';
-$_lang['discuss.post_err_ns_message'] = 'Please enter a message.';
-$_lang['discuss.post_err_ns_title'] = 'Please enter a valid post title.';
-$_lang['discuss.post_err_remove'] = 'An error occurred while trying to remove the post.';
-$_lang['discuss.post_err_reply'] = 'An error occurred while trying to post a reply.';
-$_lang['discuss.post_err_save'] = 'An error occurred while trying to save the post.';
-$_lang['discuss.thread_err_nf'] = 'Thread not found.';
+$_lang['discuss.correct_errors'] = 'Bitte korrigieren Sie die Fehler in Ihrem Formular.';
+$_lang['discuss.post_err_create'] = 'Beim Versuch, den neuen Thread zu speichern, trat ein Fehler auf.';
+$_lang['discuss.post_err_nf'] = 'Beitrag konnte nicht gefunden werden!';
+$_lang['discuss.post_err_ns'] = 'Beitrag nicht angegeben!';
+$_lang['discuss.post_err_ns_message'] = 'Bitte geben Sie eine Nachricht ein.';
+$_lang['discuss.post_err_ns_title'] = 'Bitte geben Sie einen gültigen Beitragstitel ein.';
+$_lang['discuss.post_err_remove'] = 'Beim Versuch, den Beitrag zu entfernen, ist ein Fehler aufgetreten.';
+$_lang['discuss.post_err_reply'] = 'Beim Versuch, eine Antwort zu senden, ist ein Fehler aufgetreten.';
+$_lang['discuss.post_err_save'] = 'Beim Versuch, den Beitrag zu speichern, ist ein Fehler aufgetreten.';
+$_lang['discuss.thread_err_nf'] = 'Thread konnte nicht gefunden werden.';
 
-$_lang['discuss.post_modify'] = 'Modify Post';
-$_lang['discuss.post_new'] = 'Start a New Post';
-$_lang['discuss.post_reply'] = 'Reply to Post';
+$_lang['discuss.post_modify'] = 'Beitrag bearbeiten';
+$_lang['discuss.post_new'] = 'Neuen Beitrag erstellen';
+$_lang['discuss.post_reply'] = 'Auf Beitrag antworten';
 
-$_lang['discuss.solved'] = 'Answered';
-$_lang['discuss.unsolved'] = 'No Answers';
+$_lang['discuss.solved'] = 'Beantwortet';
+$_lang['discuss.unsolved'] = 'Keine Antworten';
 
-$_lang['discuss.thread_remove'] = 'Remove Thread';
-$_lang['discuss.thread_remove_confirm'] = 'Are you sure you want to permanently remove the thread "[[+thread]]"?';
-$_lang['discuss.thread_summary'] = 'Thread Summary';
+$_lang['discuss.thread_remove'] = 'Thread löschen';
+$_lang['discuss.thread_remove_confirm'] = 'Sind Sie sicher, dass Sie den Thread "[[+thread]]" dauerhaft entfernen möchten?';
+$_lang['discuss.thread_summary'] = 'Thread Zusammenfassung';
 
-$_lang['discuss.title'] = 'Title';
-$_lang['discuss.title_helper'] = 'Enter a descriptive post title…';
-$_lang['discuss.views'] = 'Views';
-$_lang['discuss.preview'] = 'Preview';
-$_lang['discuss.save_changes'] = 'Save Changes';
+$_lang['discuss.title'] = 'Titel';
+$_lang['discuss.title_helper'] = 'Geben Sie einen beschreibenden Titel ein ...';
+$_lang['discuss.views'] = 'Aufrufe';
+$_lang['discuss.preview'] = 'Vorschau';
+$_lang['discuss.save_changes'] = 'Änderungen speichern';
 
 //nukable below?
 $_lang['discuss.thread'] = 'Thread';
